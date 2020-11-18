@@ -22,9 +22,7 @@ while ($row = mysqli_fetch_array($result)){
     echo "<td>" . $row['key_num']   . "</td>";
     echo "<td><a href='edit.php?id_key="   . $row['id_key']. "'>Изменить</a></td>";
     echo "<td><a href='delete.php?id_key=" . $row['id_key']. "'>Удалить</a></td>";
-    echo "</tr>";
-} 
-
+    echo "</tr>";} 
 print "</table>";
 $num_rows = mysqli_num_rows($result); // число записей в таблице БД
 print("<P>Всего: $num_rows </p>");
