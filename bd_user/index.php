@@ -20,7 +20,6 @@ while ($row = mysqli_fetch_array($result)){
 print "</table>";
 $num_rows = mysqli_num_rows($result); // число записей в таблице БД
 print("<P>Всего пользователей: $num_rows </p>");
-
 ?>
 <p> <a href="new.html"> Добавить пользователя </a>
 </body> </html>
