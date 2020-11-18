@@ -27,5 +27,4 @@ print "<p><a href=\"index.php\"> Вернуться к списку
 пользователей </a>";
 mysqli_close($link);
 ?>
-
 </html>
